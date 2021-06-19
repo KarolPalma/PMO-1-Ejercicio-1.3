@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityCombo">
+
+    <Spinner
+        android:id="@+id/comboPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtnombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText" />
+
+    <EditText
+        android:id="@+id/txtapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hola" />
+
+    <EditText
+        android:id="@+id/txtcorreos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

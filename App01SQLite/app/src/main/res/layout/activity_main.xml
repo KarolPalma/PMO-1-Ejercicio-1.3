@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF69F"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgComboPersona"
+        android:layout_width="264dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="121dp"
+        android:onClick="clickCuarta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgConsultarPersona"
+        app:layout_constraintVertical_bias="0.673"
+        app:srcCompat="@drawable/cuarta" />
+
+    <ImageView
+        android:id="@+id/imgIngresarPersona"
+        android:layout_width="275dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="526dp"
+        android:onClick="clickPrimera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/primera" />
+
+    <ImageView
+        android:id="@+id/imgConsultarPersona"
+        android:layout_width="268dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="42dp"
+        android:onClick="clickSegunda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgIngresarPersona"
+        app:srcCompat="@drawable/segunda" />
+
+    <ImageView
+        android:id="@+id/imgEnlistarPersona"
+        android:layout_width="264dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="121dp"
+        android:onClick="clickTercera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgConsultarPersona"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tercera" />
+
+    <ImageView
+        android:id="@+id/imgMapa"
+        android:layout_width="91dp"
+        android:layout_height="90dp"
+        android:onClick="clickMapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgComboPersona"
+        app:srcCompat="@drawable/mapa" />
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="91dp"
+        android:layout_height="90dp"
+        android:onClick="clickFoto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgComboPersona"
+        app:srcCompat="@drawable/foto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
